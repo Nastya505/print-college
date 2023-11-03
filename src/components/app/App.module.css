@@ -1,0 +1,11 @@
+.app {
+    width: min(1280px - 50px, 100%);
+    margin-inline: auto;
+}
+
+.container{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: calc(var(--offset-base-size) * 5);
+}

@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.contacts{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.contacts a {
+    text-decoration: none;
+    color: var(--color-main);
+    transition: color .3s ;
+}
+.contacts a:hover {
+    color: var(--color-details);
+}
+.social{
+    display: flex;
+    gap: 15px;
+}
+.social a{
+    text-decoration: none;
+    transition: transform .3s ;
+}
+.social a:hover{
+    transform: scale(1.1);
+}

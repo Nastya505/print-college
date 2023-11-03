@@ -1,0 +1,16 @@
+.footer{
+    background-image: url("../../images/footer/footer-bg.png") ;
+    width: 100%;
+    display: flex;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 120px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

@@ -1,0 +1,39 @@
+@import url("./typography.css");
+@import url("./box.css");
+
+:root {
+  --offset-base-size: 4px;
+
+  --fs-regular: 20px;
+  --fs-small: 16px;
+  --fs-big: 36px;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+
+  --color-details: #F7A30A;
+  --color-main: #000000;
+  --color-text-card: #FFFFFF;
+  --color-scroll: #4DAEA9;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cl-w{
+  color: var(--color-text-card);
+}
+.cl-b{
+  color: var(--color-main);
+}

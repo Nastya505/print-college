@@ -1,0 +1,22 @@
+.stateInfoLink {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.block a{
+    display: flex;
+    gap: 38px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: var(--fs-small);
+    text-decoration: none;
+    color: var(--color-main);
+    padding: 22px;
+    border: 1px solid #CECECE;
+}
