@@ -3,6 +3,7 @@ import icon_logo from "../../images/header/logo.svg";
 import icon_vk from "../../images/header/vk.svg";
 import icon_ok from "../../images/header/ok.svg";
 import icon_email from "../../images/header/email.svg";
+import burger from "../../images/header/burger.svg"
 
 function Header() {
     return (
@@ -16,6 +17,7 @@ function Header() {
                     <a href="#"><img src={icon_email} alt="email" /></a>
                 </div>
             </div>
+            <img src={burger} className={styles.burgerMenu} />
       </div>
     );
   }

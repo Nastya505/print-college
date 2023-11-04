@@ -1,11 +1,23 @@
 .app {
     width: min(1280px - 40px, 100%);
     margin-inline: auto;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    padding: 0 calc(var(--offset-base-size) * 5);
+
 }
 .container{
   display: flex;
   justify-content: space-between;
-  
   width: 100%;
   gap: calc(var(--offset-base-size) * 5);
+}
+
+@media (max-width: 1024px) {
+  .container{
+      flex-direction: column;
+      justify-content: center;
+      gap: calc(var(--offset-base-size) * 10);
+
+  }
 }

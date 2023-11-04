@@ -10,8 +10,8 @@ function App() {
     <div className={`${styles.app} mt-5`}>
         <Header />
         <div className={styles.container}>
-          <SideBar />
-          <Main />
+            <SideBar />
+            <Main />
         </div>
         <StateInfo />
     </div>

@@ -3,7 +3,7 @@ import styles from "./newsCard.module.css"
 function NewsCard({photo, day, mounth, title}) {
     return (
       <>
-       <div className={`${styles.card} p-4`} style={{backgroundImage: {photo}}}>
+       <div className={`${styles.card} p-4`} style={{backgroundImage: `url(${photo})`}}>
         <div className={`${styles.date} cl-w`}>
           <span className="text-big ">{day}</span>
           <span className="text-small">{mounth}</span>

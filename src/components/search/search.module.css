@@ -23,3 +23,9 @@ input {
     padding: 12px;
     border: 1px solid  #1D4287;
 }
+
+@media (max-width: 1024px) {
+    .inputCastom{
+        display: none;
+    }
+}

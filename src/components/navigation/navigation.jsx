@@ -10,7 +10,7 @@ import agent from "../../images/navigation/agent.svg";
 
 function Navigation() {
     return (
-    <div className={`${styles.nav} mt-10 mb-10`}>
+    <div className={`${styles.nav} mt-10 mb-8`}>
         <a className={styles.link} href="#">
             <img src={news} />
             <span className="text-small cl-b">Новости</span>

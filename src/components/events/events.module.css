@@ -5,6 +5,8 @@
     height: 800px;
     overflow-y: scroll;
     gap: calc(var(--offset-base-size) * 5);
+    padding-right: calc(var(--offset-base-size) * 5);
+    box-sizing: border-box;
 }
 
 /* castom scrollbar */
@@ -16,4 +18,21 @@
 }
 .events::-webkit-scrollbar-thumb {
     background-color: #4DAEA9;
+}
+
+@media (max-width: 1024px) {
+    .events{
+        flex-direction:initial ;
+        overflow-y: hidden;
+        overflow-x: scroll;
+        height: auto;
+        padding-right: 0;
+        padding-bottom: calc(var(--offset-base-size) * 5);
+
+        gap: calc(var(--offset-base-size) * 7);
+
+    }
+    .events::-webkit-scrollbar {
+        height: 5px;
+    }
 }

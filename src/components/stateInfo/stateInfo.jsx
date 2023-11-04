@@ -11,6 +11,7 @@ import styles from "./stateInfo.module.css"
 function StateInfo() {
     return (
       <div>
+        <div className={`${styles.title} text-regular medium mt-10 mb-6`}>Ссылки Минпросвящения РФ</div>
         <div className={`${styles.block} mb-10`}>
             <a href="#"><img src={image2} alt="" />Министрерство просвещения Российской Федерации</a>
             <a href="#"><img src={image2} alt="" />Министрерство просвещения Российской Федерации</a>

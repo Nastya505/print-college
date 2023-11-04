@@ -4,6 +4,9 @@
     grid-auto-rows: 256px;
     gap: calc(var(--offset-base-size) * 5);
 }
+.wrapper{
+    margin-bottom: 80px;
+}
 .link{
     text-decoration: none;
     display: flex;
@@ -14,4 +17,24 @@
 
 .link:hover {
    margin-right: 10px;
+}
+
+
+@media (max-width: 730px) {
+    .news{
+        grid-auto-rows: 200px;
+        gap: calc(var(--offset-base-size) * 3);
+    }
+
+    .wrapper{
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 530px) {
+    .news{
+        grid-template-columns: 1fr;
+        grid-auto-rows: 250px;
+
+    }
 }

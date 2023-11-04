@@ -25,3 +25,9 @@
     align-items: center;
     gap: calc(var(--offset-base-size) * 4);
 }
+
+@media (max-width: 1024px) {
+    .nav{
+        display: none;
+    }
+}

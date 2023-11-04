@@ -2,21 +2,59 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    gap: calc(var(--offset-base-size) * 5);
 }
+.title{
+    display: none;
+}
+
 .block {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    width: 100%;
+    gap: calc(var(--offset-base-size) * 5);
 }
 .block a{
     display: flex;
-    gap: 38px;
+    gap: calc(var(--offset-base-size) * 9);
     justify-content: space-between;
     align-items: center;
     font-size: var(--fs-small);
     text-decoration: none;
     color: var(--color-main);
+    width: 100%;
     padding: 22px;
     border: 1px solid #CECECE;
+}
+
+@media (max-width: 1200px){
+    .block, .stateInfoLink{
+        overflow-x: scroll;
+        padding-bottom: calc(var(--offset-base-size) * 5);
+    }
+    .block a{
+        min-width: 400px;
+    }
+    .stateInfoLink a img{
+        min-height: 110px;
+    }
+
+    /* castom scrollbar */
+    .block::-webkit-scrollbar, .stateInfoLink::-webkit-scrollbar {
+       height: 5px;
+    }
+    .block::-webkit-scrollbar-track, .stateInfoLink::-webkit-scrollbar-track {
+        background-color: #D9D9D9;
+    } 
+     .block::-webkit-scrollbar-thumb,  .stateInfoLink::-webkit-scrollbar-thumb   {
+        background-color: #4DAEA9;
+    } 
+} 
+
+@media (max-width: 1024px){
+    .title{
+        display: block;
+    }
 }

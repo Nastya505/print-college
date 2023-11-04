@@ -4,7 +4,7 @@ import Event from "../event/event";
 function Events() {
     return (
       <>
-        <div className="text-retular medium mb-8">Календарь событий</div>
+        <div className="text-retular medium mb-6">Календарь событий</div>
         <div className={styles.events}>
             <Event actual day={"4-7"} mounth={"Октября"} dayofWeek={"ср"} title={"Окружной хакатон “Информационный прорыв”. Сезон: “ИИ”"}  >
               День абитуриента

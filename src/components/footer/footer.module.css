@@ -2,15 +2,30 @@
     background-image: url("../../images/footer/footer-bg.png") ;
     width: 100%;
     display: flex;
+    gap: calc(var(--offset-base-size) * 7);
+    box-sizing: border-box;
 }
 .column{
     display: flex;
     flex-direction: column;
-    width: 300px;
-    margin-left: 120px;
+    max-width: 300px;
+    width: 100%;
+    padding-left:  calc(var(--offset-base-size) * 5);
 }
 .info{
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+@media (max-width: 413px) {
+    .footer{
+        flex-direction: column;
+    }
+    .column{
+        max-width: 200px;
+    }
+    .info span{
+        font-size: 12px;
+    }
 }
