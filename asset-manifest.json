@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/print-college/static/css/main.ea0904e6.css",
-    "main.js": "/print-college/static/js/main.b2eecb1c.js",
+    "main.css": "/print-college/static/css/main.ade3c558.css",
+    "main.js": "/print-college/static/js/main.da6bc73b.js",
     "static/js/787.35d83b95.chunk.js": "/print-college/static/js/787.35d83b95.chunk.js",
     "static/media/img1.svg": "/print-college/static/media/img1.1d77ea2ce250405e548db534f108e2d7.svg",
     "static/media/swiper-photo1.png": "/print-college/static/media/swiper-photo1.36ce2c623ad23a9ece5d.png",
@@ -16,15 +16,23 @@
     "static/media/img5.svg": "/print-college/static/media/img5.c1cde398e35fd491e22a19a79e17de01.svg",
     "static/media/2.svg": "/print-college/static/media/2.462980ff5c9a7d265b8a76c84c86b73d.svg",
     "static/media/1.svg": "/print-college/static/media/1.5f7f3ff0d4f3248db466e4051fb6f134.svg",
+    "static/media/calendar.svg": "/print-college/static/media/calendar.83b18b4f220aec6516c7803f7c09cefb.svg",
+    "static/media/agent.svg": "/print-college/static/media/agent.178f1983837ba6af807245d7dc15be94.svg",
+    "static/media/icon-portfolio.svg": "/print-college/static/media/icon-portfolio.9200be82d9d65edb0451086f2e878605.svg",
+    "static/media/info.svg": "/print-college/static/media/info.4764b660c3514e35cb252a912da26a49.svg",
     "static/media/vk.svg": "/print-college/static/media/vk.b58ce84d3fd9199aea0501bac2bc1ae7.svg",
+    "static/media/search-icon.svg": "/print-college/static/media/search-icon.e6842bd6df8198d28b51.svg",
     "index.html": "/print-college/index.html",
+    "static/media/news.svg": "/print-college/static/media/news.bdbc5a980de289f37da0459298776fad.svg",
+    "static/media/directions.svg": "/print-college/static/media/directions.9b4381cfb7bba88772aa654d372c50d2.svg",
+    "static/media/dpo.svg": "/print-college/static/media/dpo.c4f74bf1066b7d9dd3284e5f73c450e2.svg",
     "static/media/arrow.svg": "/print-college/static/media/arrow.8cdc3f01c356d80754efafbd89d804f6.svg",
-    "main.ea0904e6.css.map": "/print-college/static/css/main.ea0904e6.css.map",
-    "main.b2eecb1c.js.map": "/print-college/static/js/main.b2eecb1c.js.map",
+    "main.ade3c558.css.map": "/print-college/static/css/main.ade3c558.css.map",
+    "main.da6bc73b.js.map": "/print-college/static/js/main.da6bc73b.js.map",
     "787.35d83b95.chunk.js.map": "/print-college/static/js/787.35d83b95.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea0904e6.css",
-    "static/js/main.b2eecb1c.js"
+    "static/css/main.ade3c558.css",
+    "static/js/main.da6bc73b.js"
   ]
 }
