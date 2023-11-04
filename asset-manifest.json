@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/print-college/static/css/main.ade3c558.css",
-    "main.js": "/print-college/static/js/main.da6bc73b.js",
+    "main.css": "/print-college/static/css/main.970e63b8.css",
+    "main.js": "/print-college/static/js/main.5b50a35e.js",
     "static/js/787.35d83b95.chunk.js": "/print-college/static/js/787.35d83b95.chunk.js",
+    "static/media/swiper-2.jpg": "/print-college/static/media/swiper-2.6e884f9a820e7be60382.jpg",
     "static/media/img1.svg": "/print-college/static/media/img1.1d77ea2ce250405e548db534f108e2d7.svg",
+    "static/media/swiper-3.jpg": "/print-college/static/media/swiper-3.ca06a22af7c352aea0fc.jpg",
     "static/media/swiper-photo1.png": "/print-college/static/media/swiper-photo1.36ce2c623ad23a9ece5d.png",
     "static/media/img3.svg": "/print-college/static/media/img3.e113dad52b1b70f8743afe946a631902.svg",
     "static/media/img4.svg": "/print-college/static/media/img4.ff54a79d666ac9dcf30c3492f3a5bf3d.svg",
     "static/media/logo.svg": "/print-college/static/media/logo.db6980c2ec0b29633ba11778092884d0.svg",
+    "static/media/news2.png": "/print-college/static/media/news2.90cde740abd0f2e45e50.png",
     "static/media/new-photo.png": "/print-college/static/media/new-photo.6e8e6eb1b2cc644e17d7.png",
     "static/media/footer-bg.png": "/print-college/static/media/footer-bg.f3f7e5b71c2a349c4e91.png",
     "static/media/email.svg": "/print-college/static/media/email.036753cad5a3807bf862cacb323c0268.svg",
+    "static/media/news1.png": "/print-college/static/media/news1.900d1517cf82a8cfb7d4.png",
     "static/media/img2.svg": "/print-college/static/media/img2.e67ddf72bb48433324945fdc53015ae6.svg",
     "static/media/ok.svg": "/print-college/static/media/ok.3679e6eb7051af918487725a1575dc53.svg",
     "static/media/img5.svg": "/print-college/static/media/img5.c1cde398e35fd491e22a19a79e17de01.svg",
@@ -26,13 +30,14 @@
     "static/media/news.svg": "/print-college/static/media/news.bdbc5a980de289f37da0459298776fad.svg",
     "static/media/directions.svg": "/print-college/static/media/directions.9b4381cfb7bba88772aa654d372c50d2.svg",
     "static/media/dpo.svg": "/print-college/static/media/dpo.c4f74bf1066b7d9dd3284e5f73c450e2.svg",
+    "static/media/burger.svg": "/print-college/static/media/burger.4c453105215ca8c9bca74bc022fa0a63.svg",
     "static/media/arrow.svg": "/print-college/static/media/arrow.8cdc3f01c356d80754efafbd89d804f6.svg",
-    "main.ade3c558.css.map": "/print-college/static/css/main.ade3c558.css.map",
-    "main.da6bc73b.js.map": "/print-college/static/js/main.da6bc73b.js.map",
+    "main.970e63b8.css.map": "/print-college/static/css/main.970e63b8.css.map",
+    "main.5b50a35e.js.map": "/print-college/static/js/main.5b50a35e.js.map",
     "787.35d83b95.chunk.js.map": "/print-college/static/js/787.35d83b95.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ade3c558.css",
-    "static/js/main.da6bc73b.js"
+    "static/css/main.970e63b8.css",
+    "static/js/main.5b50a35e.js"
   ]
 }
