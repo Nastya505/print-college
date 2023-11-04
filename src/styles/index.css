@@ -37,3 +37,6 @@ body {
 .cl-b{
   color: var(--color-main);
 }
+.cl-f{
+  color: var(--color-details);
+}

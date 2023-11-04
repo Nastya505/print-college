@@ -1,17 +1,29 @@
 .mt-5 {
     margin-top: calc(var(--offset-base-size) * 5);
 }
+.mt-8 {
+    margin-top: calc(var(--offset-base-size) * 8);
+}
 .mt-10 {
     margin-top: calc(var(--offset-base-size) * 10);
 }
 .mt-20 {
     margin-top: calc(var(--offset-base-size) * 20);
 }
+.mb-3 {
+    margin-bottom: calc(var(--offset-base-size) * 3);
+}
 .mb-5 {
     margin-bottom: calc(var(--offset-base-size) * 5);
 }
 .mb-6 {
     margin-bottom: calc(var(--offset-base-size) * 6);
+}
+.mb-7 {
+    margin-bottom: calc(var(--offset-base-size) * 7);
+}
+.mb-8 {
+    margin-bottom: calc(var(--offset-base-size) * 8);
 }
 .mb-10 {
     margin-bottom: calc(var(--offset-base-size) * 10);

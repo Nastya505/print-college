@@ -1,11 +1,8 @@
 .news {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-auto-rows: 250px;
+    grid-auto-rows: 256px;
     gap: calc(var(--offset-base-size) * 5);
-  
 }
 .link{
     text-decoration: none;
