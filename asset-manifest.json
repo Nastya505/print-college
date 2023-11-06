@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/print-college/static/css/main.970e63b8.css",
-    "main.js": "/print-college/static/js/main.5b50a35e.js",
+    "main.css": "/print-college/static/css/main.6a572de1.css",
+    "main.js": "/print-college/static/js/main.da35fd5a.js",
     "static/js/787.35d83b95.chunk.js": "/print-college/static/js/787.35d83b95.chunk.js",
     "static/media/swiper-2.jpg": "/print-college/static/media/swiper-2.6e884f9a820e7be60382.jpg",
     "static/media/img1.svg": "/print-college/static/media/img1.1d77ea2ce250405e548db534f108e2d7.svg",
@@ -32,12 +32,12 @@
     "static/media/dpo.svg": "/print-college/static/media/dpo.c4f74bf1066b7d9dd3284e5f73c450e2.svg",
     "static/media/burger.svg": "/print-college/static/media/burger.4c453105215ca8c9bca74bc022fa0a63.svg",
     "static/media/arrow.svg": "/print-college/static/media/arrow.8cdc3f01c356d80754efafbd89d804f6.svg",
-    "main.970e63b8.css.map": "/print-college/static/css/main.970e63b8.css.map",
-    "main.5b50a35e.js.map": "/print-college/static/js/main.5b50a35e.js.map",
+    "main.6a572de1.css.map": "/print-college/static/css/main.6a572de1.css.map",
+    "main.da35fd5a.js.map": "/print-college/static/js/main.da35fd5a.js.map",
     "787.35d83b95.chunk.js.map": "/print-college/static/js/787.35d83b95.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.970e63b8.css",
-    "static/js/main.5b50a35e.js"
+    "static/css/main.6a572de1.css",
+    "static/js/main.da35fd5a.js"
   ]
 }
