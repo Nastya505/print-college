@@ -20,9 +20,6 @@ function SwiperModel() {
             dynamicBullets: true,
         }}
         modules={[Pagination]}
-        spaceBetween={50}
-        slidesPerView={1}
-        autoplay={{ delay: 3000 }}
         className={`mySwiper ${styles.swiper}`}
     >
         <SwiperSlide className={styles.swiperSlide}><img src={photo1} /></SwiperSlide>

@@ -1,9 +1,13 @@
 .footer{
     background-image: url("../../images/footer/footer-bg.png") ;
     width: 100%;
+    box-sizing: border-box;
+}
+.container{
+    width: min(1280px - 40px, 100%);
+    margin-inline: auto;
     display: flex;
     gap: calc(var(--offset-base-size) * 7);
-    box-sizing: border-box;
 }
 .column{
     display: flex;
@@ -22,9 +26,13 @@
     .footer{
         flex-direction: column;
     }
-    .column{
-        max-width: 200px;
-    }
+   .container{
+    flex-direction: column;
+   }
+   .column{
+    max-width: 200px;
+    
+   }
     .info span{
         font-size: 12px;
     }
