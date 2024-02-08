@@ -19,9 +19,10 @@
 
 input {
     width: 100%;
+    text-transform: lowercase;
     box-sizing: border-box;
     padding: 12px;
-    border: 1px solid  #1D4287;
+    border: 1px solid  #e7e7e7;
 }
 
 @media (max-width: 1024px) {
